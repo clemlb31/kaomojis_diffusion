@@ -1,0 +1,8 @@
+torch>=2.7
+transformers>=4.51  # Qwen3 support
+peft>=0.21
+anthropic>=1.6      # only for kaogen.caption
+requests
+beautifulsoup4
+lxml
+wcwidth

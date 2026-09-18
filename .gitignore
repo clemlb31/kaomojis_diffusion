@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# project
+# Ignore the directory's contents rather than the directory: git never descends into an
+# ignored directory, so "data/" would make the un-ignore below unreachable.
+data/*
+runs/
+# The captions are written by hand, not scraped: they are the expensive artefact here.
+!data/captions.jsonl
